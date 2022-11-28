@@ -81,7 +81,7 @@ input:focus {
   outline: none;
 }
 .input {
-  color: #d4f1f4;
+  color: #05445e;
 }
 .new-project-form {
   margin-top: 1rem;
@@ -169,7 +169,7 @@ label {
 }
 
 [type="checkbox"]:checked + label .custom-checkbox {
-  background: white;
+  background: rgb(5, 82, 4);
 }
 
 [type="checkbox"]:checked + label {
