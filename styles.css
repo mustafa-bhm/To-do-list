@@ -8,6 +8,7 @@ body {
   background: #75e6da;
   color: #05445e;
   font-family: "Montserrat", sans-serif;
+  position: relative;
 }
 .container {
   position: relative;
@@ -36,13 +37,17 @@ body {
   justify-content: space-between;
   margin-bottom: 2rem;
   align-items: center;
-  background-color: #d4f1f4;
+  background-color: #05445e;
+  color: #d4f1f4;
   padding: 1rem 2rem;
 }
 
 .project-list-title {
-  border: 1px solid;
-  padding: 1rem;
+  /* border: 1px solid; */
+  padding: 0.9rem;
+  border-radius: 5px;
+  background-color: #05445e;
+  color: #d4f1f4;
 }
 .project-list {
   margin-top: 2rem;
@@ -175,10 +180,9 @@ label {
 .delete-btns {
   display: flex;
   justify-content: space-evenly;
-  position: absolute;
   width: 100%;
-  bottom: -60px;
   color: #05445e;
+  margin-bottom: 3rem;
 }
 
 .btn.delete {
@@ -192,4 +196,19 @@ label {
 .btn.delete:hover {
   background-color: #d4f1f4;
   color: #05445e;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #05445e;
+  color: white;
+  height: 2rem;
+  padding-top: 1rem;
+}
+.fa-github {
+  color: white;
+  font-size: 1.3rem;
 }
